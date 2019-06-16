@@ -264,6 +264,7 @@ endif
       if get(g:, 'vim_better_default_file_key_mapping', 1)
         " File save
         nnoremap <Leader>fs :update<CR>
+        nnoremap <Leader>fx :x<CR>
       endif
     " }
 
