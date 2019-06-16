@@ -195,8 +195,8 @@ endif
         nnoremap <silent> <Leader>q  :q<CR>
         nnoremap <Leader>Q  :qa!<CR>
         " Move half page faster
-        nnoremap <Leader>d  <C-d>
-        nnoremap <Leader>u  <C-u>
+        "" nnoremap <Leader>d  <C-d>
+        "" nnoremap <Leader>u  <C-u>
         " Insert mode shortcut
         inoremap <C-h> <BS>
         inoremap <C-j> <Down>
