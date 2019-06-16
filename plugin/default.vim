@@ -283,32 +283,32 @@ endif
     " }
 
     " Window {
-      "" if get(g:, 'vim_better_default_window_key_mapping', 1)
-      ""   nnoremap <Leader>ww <C-W>w
-      ""   nnoremap <Leader>wr <C-W>r
-      ""   nnoremap <Leader>wd <C-W>c
-      ""   nnoremap <Leader>wq <C-W>q
-      ""   nnoremap <Leader>wj <C-W>j
-      ""   nnoremap <Leader>wk <C-W>k
-      ""   nnoremap <Leader>wh <C-W>h
-      ""   nnoremap <Leader>wl <C-W>l
-      ""   if has('nvim') || has('terminal')
-      ""     tnoremap <Leader>wj <C-W>j
-      ""     tnoremap <Leader>wk <C-W>k
-      ""     tnoremap <Leader>wh <C-W>h
-      ""     tnoremap <Leader>wl <C-W>l
-      ""   endif
-      ""   nnoremap <Leader>wH <C-W>5<
-      ""   nnoremap <Leader>wL <C-W>5>
-      ""   nnoremap <Leader>wJ :resize +5<CR>
-      ""   nnoremap <Leader>wK :resize -5<CR>
-      ""   nnoremap <Leader>w= <C-W>=
-      ""   nnoremap <Leader>ws <C-W>s
-      ""   nnoremap <Leader>w- <C-W>s
-      ""   nnoremap <Leader>wv <C-W>v
-      ""   nnoremap <Leader>w\| <C-W>v
-      ""   nnoremap <Leader>w2 <C-W>v
-      "" endif
+      if get(g:, 'vim_better_default_window_key_mapping', 1)
+        nnoremap <Leader>ww <C-W>w
+        nnoremap <Leader>wr <C-W>r
+        nnoremap <Leader>wd <C-W>c
+        nnoremap <Leader>wq <C-W>q
+        nnoremap <Leader>wj <C-W>j
+        nnoremap <Leader>wk <C-W>k
+        nnoremap <Leader>wh <C-W>h
+        nnoremap <Leader>wl <C-W>l
+        if has('nvim') || has('terminal')
+          tnoremap <Leader>wj <C-W>j
+          tnoremap <Leader>wk <C-W>k
+          tnoremap <Leader>wh <C-W>h
+          tnoremap <Leader>wl <C-W>l
+        endif
+        nnoremap <Leader>wH <C-W>5<
+        nnoremap <Leader>wL <C-W>5>
+        nnoremap <Leader>wJ :resize +5<CR>
+        nnoremap <Leader>wK :resize -5<CR>
+        nnoremap <Leader>w= <C-W>=
+        nnoremap <Leader>ws <C-W>s
+        nnoremap <Leader>w- <C-W>s
+        nnoremap <Leader>wv <C-W>v
+        nnoremap <Leader>w\| <C-W>v
+        nnoremap <Leader>w2 <C-W>v
+      endif
     " }
 
   endif
