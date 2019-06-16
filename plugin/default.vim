@@ -226,7 +226,7 @@ endif
         " Move to the end of line
         nnoremap L $
         " Redo
-        nnoremap U <C-r>
+        "" nnoremap U <C-r>
         " Quick command mode
         nnoremap <CR> :
         " In the quickfix window, <CR> is used to jump to the error under the
